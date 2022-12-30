@@ -5,7 +5,11 @@ export const Main: FC<{}> = () => {
   return (
     <>
       <h1>Main</h1>
-      <Link to="/TestReactSpring/useTrail">useTrail</Link>
+      <ul>
+        <li>
+          <Link to="/TestReactSpring/useTrail">useTrail</Link>
+        </li>
+      </ul>
     </>
   );
 };
