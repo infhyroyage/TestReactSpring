@@ -10,6 +10,9 @@ export const Main: FC<{}> = () => {
           <Link to="/TestReactSpring/useSpring">useSpring</Link>
         </li>
         <li>
+          <Link to="/TestReactSpring/useTransition">useTransition</Link>
+        </li>
+        <li>
           <Link to="/TestReactSpring/useTrail">useTrail</Link>
         </li>
       </ul>
