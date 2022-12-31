@@ -32,7 +32,7 @@ export const UseTrail: FC<{}> = () => {
 
   return (
     <>
-      <h1>UseTrail</h1>
+      <h1>useTrail</h1>
       <button onClick={toggleIsShown}>{isShown ? "OFF" : "ON"}</button>
       <div>
         {trail.map(({ x, height, ...rest }, index) => (
