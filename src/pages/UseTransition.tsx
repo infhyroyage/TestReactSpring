@@ -8,7 +8,12 @@ export const UseTransition: FC<{}> = () => {
     leave: { opacity: 0 },
   });
 
-  return transitions((style, item) => (
-    <animated.div style={style}>{item}</animated.div>
-  ));
+  return (
+    <>
+      <h1>useTransition</h1>
+      {transitions((style, item) => (
+        <animated.div style={style}>{item}</animated.div>
+      ))}
+    </>
+  );
 };

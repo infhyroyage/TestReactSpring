@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TestReactSpring/static/js/main.7d1813d1.js",
+    "main.js": "/TestReactSpring/static/js/main.c01515dd.js",
     "index.html": "/TestReactSpring/index.html",
-    "main.7d1813d1.js.map": "/TestReactSpring/static/js/main.7d1813d1.js.map"
+    "main.c01515dd.js.map": "/TestReactSpring/static/js/main.c01515dd.js.map"
   },
   "entrypoints": [
-    "static/js/main.7d1813d1.js"
+    "static/js/main.c01515dd.js"
   ]
 }

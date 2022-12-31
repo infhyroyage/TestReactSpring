@@ -8,5 +8,10 @@ export const UseSpring: FC<{}> = () => {
     delay: 2000,
   });
 
-  return <animated.div style={style}>Hello World</animated.div>;
+  return (
+    <>
+      <h1>useSpring</h1>
+      <animated.div style={style}>Hello World</animated.div>
+    </>
+  );
 };
